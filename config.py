@@ -14,7 +14,7 @@ class Settings:
 
     PROXY_BASE_DOMAIN: str = os.getenv("PROXY_BASE_DOMAIN", "http://default_user:default_pass@")
 
-     PROXY_LIST = [
+    PROXY_LIST = [
         "45.137.52.205:63958",
         "45.137.52.168:63312",
         "45.137.52.184:64872",
