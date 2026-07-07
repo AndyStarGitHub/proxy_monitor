@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.sesskey
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Test & coverage
+.coverage
+htmlcov/
+.pytest_cache/
+Docs/
+
+# Type checkers & linters
+.mypy_cache/
+.ruff_cache/
+
+# Build
+dist/
+*.egg-info/
+
+# JetBrains IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
